@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+body {
+    background-color: #1E2433;
+    font-family: 'Rubik', sans-serif;
+}
+
+.headerLeftLogo {
+    width: 130px;
+}
+
+.headerRightField {
+    width: 350px;
+}
+
+.headerRightFieldBorder {
+    border: 1px solid #fff;
+    height: 20px;
+}
+
+.accountImage img {
+    width: 100%;
+}
+
+.accountInputs input[type="email"], .accountInputs input[type="password"] {
+    background-color: #3E4A69;
+    border-color: #3E4A69;
+}
+
+.accountInputs input[type="email"]::placeholder, .accountInputs input[type="password"]::placeholder {
+    color: #fff;
+}
